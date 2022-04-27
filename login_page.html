@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    </head>
+    <body>
+        
+        <div id="main">
+            <div class="logo"><img src="intuitlogin\signinpage\images\intuit-logo.png">
+            </div>
+            <img class="thumbnails" src="intuitlogin\signinpage\images\turbotax-logo.png">
+            <img class="thumbnails" src="intuitlogin\signinpage\images\quickbooks-logo.png">
+            <img class="thumbnails" src="intuitlogin\signinpage\images\mint-logo.png">
+            <div class="h-tag">
+                <h2>Create your account</h2>
+            </div>
+            <div class="login">
+                <table cellspacing="2" align="center" cellpadding="8" border="0">
+                    <tr>
+                        <td align="right">Enter Name : </td>
+                        <td><input type="text" placeholder="Enter user here" id="t1" class="tb" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Enter Email-Id : </td>
+                        <td><input type="text" placeholder="Enter Email Id here" id="t2" class="tb"/></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Enter Username : </td>
+                        <td><input type="text" placeholder="Enter Username here" id="t3" class="tb"/></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Enter Password : </td>
+                        <td><input type="password" placeholder="Enter Password here" id="t4" class="tb"/></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Enter confirm password : </td>
+                        <td><input type="password" placeholder="Enter Password here" id="t5" class="tb" /></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    <td>
+                    <input type="reset" value="Clear Form" onclick="clearFunc()" id="res" class="btn" />
+                    <input type="submit" value="Create account" class="btn" onclick="registration()" /> 
+                    </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
